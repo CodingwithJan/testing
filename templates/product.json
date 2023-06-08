@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "f63d8ab0-fc9c-47be-aca5-96a1ec7fcecf": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffffff",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "94605448-d904-4bb4-8944-42f06a71877d": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "check_mark",
+            "heading_1": "All components inspected",
+            "icon_2": "return",
+            "heading_2": "30-Day Returns",
+            "icon_3": "stopwatch",
+            "heading_3": "Quick assembly"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "f63d8ab0-fc9c-47be-aca5-96a1ec7fcecf",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "94605448-d904-4bb4-8944-42f06a71877d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "25fad24a-fd17-4756-bddd-e56a6cb42b06": {
+      "type": "collage",
+      "blocks": {
+        "f2c226b2-d758-4561-8f6d-7e20c0632989": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/front-view-man-riding-bike_1.jpg"
+          }
+        },
+        "template--15841574256832__25fad24a-fd17-4756-bddd-e56a6cb42b06-16826949254a1c1668-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-riding-mountain-bike-close-up_2_1.jpg"
+          }
+        },
+        "a069c815-f486-4878-a4aa-4643ff64ebb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-riding-mountain-bike-outdoors_1_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f2c226b2-d758-4561-8f6d-7e20c0632989",
+        "template--15841574256832__25fad24a-fd17-4756-bddd-e56a6cb42b06-16826949254a1c1668-0",
+        "a069c815-f486-4878-a4aa-4643ff64ebb4"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "168241224367873ef9": {
+      "type": "apps",
+      "blocks": {
+        "ea2a63ec-3121-498a-8cae-d3fe2640c7d7": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ea2a63ec-3121-498a-8cae-d3fe2640c7d7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "0042ed14-35a7-4601-9287-605f39acecef": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15841574256832__0042ed14-35a7-4601-9287-605f39acecef-1681983613d574b3a3-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What safety gear do I need for mountain biking?",
+            "icon": "check_mark",
+            "row_content": "<p>When mountain biking, it's important to wear a properly fitting helmet, gloves, and sturdy shoes with good traction. You may also want to consider knee and elbow pads, a hydration pack, and sunglasses or goggles for eye protection.<\/p>",
+            "page": ""
+          }
+        },
+        "template--15841574256832__0042ed14-35a7-4601-9287-605f39acecef-1681983613d574b3a3-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often should I maintain my mountain bike?",
+            "icon": "check_mark",
+            "row_content": "<p>Regular maintenance is important to keep your mountain bike in good working condition. It's recommended that you clean and lube your chain after every ride, check your tire pressure weekly, and have a professional tune-up at least once a year.<\/p>",
+            "page": ""
+          }
+        },
+        "template--15841574256832__0042ed14-35a7-4601-9287-605f39acecef-1681983613d574b3a3-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need any special tools to assemble my mountain bike?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, you will need some basic tools to assemble your mountain bike, such as a set of Allen wrenches, a screwdriver, and pliers. You may also need a torque wrench to ensure that all the bolts are tightened to the correct specifications.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15841574256832__0042ed14-35a7-4601-9287-605f39acecef-1681983613d574b3a3-0",
+        "template--15841574256832__0042ed14-35a7-4601-9287-605f39acecef-1681983613d574b3a3-1",
+        "template--15841574256832__0042ed14-35a7-4601-9287-605f39acecef-1681983613d574b3a3-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "YOU MAY ALSO LIKE",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "25fad24a-fd17-4756-bddd-e56a6cb42b06",
+    "168241224367873ef9",
+    "0042ed14-35a7-4601-9287-605f39acecef",
+    "related-products"
+  ]
+}

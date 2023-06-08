@@ -1,0 +1,89 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIBE TO OUR EMAILS",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 56
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "d26e2b14-ced6-473b-b776-85ceff7acfd3": {
+          "type": "text",
+          "settings": {
+            "heading": "Bike Shack",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
+        },
+        "9a38264d-14fc-43b2-b811-a5e8a6270b23": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Navigation",
+            "menu": "main-menu"
+          }
+        },
+        "5526a557-d7f8-45e8-a5e6-9b2d637c8eac": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Info",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "d26e2b14-ced6-473b-b776-85ceff7acfd3",
+        "9a38264d-14fc-43b2-b811-a5e8a6270b23",
+        "5526a557-d7f8-45e8-a5e6-9b2d637c8eac"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "newsletter_enable": true,
+        "newsletter_heading": "Don't miss the latest news",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 44,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "newsletter",
+    "footer"
+  ]
+}
